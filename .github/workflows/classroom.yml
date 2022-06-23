@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install Forever
+        run: npm install -g forever
       - uses: education/autograding@v1
