@@ -82,7 +82,7 @@
     },
     {
       "name": "Frontend Add Student",
-      "setup": "cd ./frontend/ && npm install --legacy-peer-deps",
+      "setup": "npm install",
       "run": "file=./test/student-add.test.js npm run test --prefix ./frontend",
       "input": "",
       "output": "",
